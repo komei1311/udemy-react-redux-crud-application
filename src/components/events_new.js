@@ -28,6 +28,7 @@ class EventsNew extends Component {
 
   render() {
     const { handleSubmit, pristine, submitting } = this.props
+console.log(pristine)
 
     return (
       <form onSubmit={handleSubmit(this.onSubmit)}>
